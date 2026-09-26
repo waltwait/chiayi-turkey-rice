@@ -98,6 +98,7 @@ table{width:100%;border-collapse:collapse;font-size:13px;margin-top:4px}
 th,td{text-align:left;padding:7px 6px;border-bottom:1px solid var(--line)}
 th{color:var(--muted);font-weight:600;font-size:12px}
 td a{color:var(--accent)}
+#rent{scroll-margin-top:80px}
 footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;line-height:1.8}
 
 /* 安裝提示（Android Chrome） */
@@ -155,7 +156,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;line-
     </div>
   </div>
 
-  <div class="leg">🚶 出站到租車店，高鐵站旁就有好幾家</div>
+  <div class="leg">🚶 出站到租車店，高鐵站旁就有好幾家（<a href="#rent" style="color:inherit">比較看這</a>）</div>
 
   <div class="stop break">
     <div class="num alt" style="cursor:default">🛵</div>
@@ -163,6 +164,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;line-
       <div class="time">10:55</div>
       <div class="name">高鐵站租機車</div>
       <div class="hours">預留 15 分鐘辦手續。記得帶<b>駕照＋身分證</b>。</div>
+      <div class="order">推薦：<b>Rilink 綠悠遊</b>（2、3 號出口對面），其他選擇見<a href="#rent" style="color:var(--accent)">下方租車比較</a></div>
       <div class="why">機車<b>不能上台 82 快速道路</b>，Google 導航要切到「機車」模式，它會帶你走 168 縣道。</div>
     </div>
   </div>
@@ -361,7 +363,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;line-
       <div class="time">17:30</div>
       <div class="name">高鐵站還機車</div>
       <div class="hours">預留 20 分鐘（加油／充電、驗車）。</div>
-      <span class="flag">⚠️ 有些店 18:00 就打烊（例如 Rilink 綠悠遊），確認你租的那家幾點關門</span>
+      <span class="flag">⚠️ 綠悠遊、OOGo 門市 18:00 關門（綠悠遊另有 24 小時自助還車），確認你租的那家怎麼還</span>
     </div>
   </div>
 
@@ -390,6 +392,19 @@ footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;line-
   </ul>
 </div>
 
+<div class="box" id="rent">
+  <h3>🛵 高鐵嘉義站租機車</h3>
+  <p>幾家都在高鐵站旁，走路就到。<b>週六的車容易被租光，先上網預約。</b></p>
+  <table>
+    <tr><th>店家</th><th>取還車</th><th>重點</th></tr>
+    <tr><td><b>Rilink 綠悠遊</b> <span class="tag">推薦</span><br><span style="color:#7d746a">太保市保鐵七路 200 號<br>（2、3 號出口對面車站廣場）</span><br><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=Rilink%20%E7%B6%A0%E6%82%A0%E9%81%8A%20%E5%98%89%E7%BE%A9%E9%AB%98%E9%90%B5">導航</a>・<a target="_blank" href="https://www.rilinkxgreenyoyo.com/store-locator/chiayi-area">預約</a></td><td>門市 09:00–18:00，另有 24 小時自助取還・05-3715101</td><td>有<b>燃油車</b>，不用擔心沒電；送安全帽、雨衣、手機架。假日一日約 550 元起</td></tr>
+    <tr><td><b>ZOCHA 無人店</b><br><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=ZOCHA%20%E5%98%89%E7%BE%A9%E9%AB%98%E9%90%B5%E7%84%A1%E4%BA%BA%E5%BA%97">導航</a>・<a target="_blank" href="https://www.zocha.com.tw/catalog2-1/zocha/chiayi/highspeedrail">預約</a></td><td>24 小時無人自助，App 掃碼取車・客服 02-77136860</td><td>Gogoro 電動車；班次延誤也不怕櫃台關門</td></tr>
+    <tr><td><b>WeMo 同站租還</b><br><span style="color:#7d746a">高鐵西路與保鐵六路口</span><br><a target="_blank" href="https://www.wemoscooter.com/nsl">說明</a></td><td>24 小時，用 WeMo App 租</td><td>有日租方案，但要<b>還回同一站</b>；費率以 App 為準</td></tr>
+    <tr><td><b>OOGo 歐歐二輪</b><br><a target="_blank" href="https://www.oogo.com.tw/stores/detail/Chiayi02">預約</a></td><td>週三至週日 09:00–18:00</td><td>電動機車；確切取車點預約時再確認</td></tr>
+  </table>
+  <p style="margin:10px 0 0;color:#7d746a;font-size:12.5px">兩天大約騎 50–60 km。租電動車記得出發前看電量，Gogoro 在市區可以找換電站換電。</p>
+</div>
+
 <div class="box">
   <h3>🔁 還吃得下、或想換店（都在 9/26 核對過）</h3>
   <table>
@@ -414,7 +429,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;line-
   <h3>✅ 出發前要做的事</h3>
   <ul>
     <li>訂高鐵：去程 <b>0619</b>（10/3 新竹 09:56 → 嘉義 10:48）、回程 <b>0670</b>（10/4 嘉義 18:08 → 新竹 18:56）</li>
-    <li>預約高鐵站機車（10/3 11:00 取、10/4 17:30 還），確認店家打烊時間</li>
+    <li>預約高鐵站機車（10/3 11:00 取、10/4 17:30 還），推薦 <b>Rilink 綠悠遊</b>，確認怎麼還車</li>
     <li><b>打 05-2780851 訂體育館海鮮碳烤</b> 10/3 18:00</li>
     <li>問房東：10/3 11:40 能不能先寄放行李、10/4 幾點退房</li>
     <li><b>10/2 打給阿宏師總店 05-2233467</b>，決定照原排還是走 B 案</li>
@@ -423,12 +438,13 @@ footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;line-
 </div>
 
 <footer>
-  營業時間與地址於 2026/9/26 用 Google 地圖逐家核對，高鐵車次查自台灣高鐵官網。<br>
+  營業時間與地址於 2026/9/26 用 Google 地圖逐家核對，高鐵車次查自台灣高鐵官網，租機車資訊 9/26 整理自各家官網與網路資料。<br>
   <b>出發當天早上請再掃一次「目前營業中」狀態。</b>
 </footer>
 
 </div>
 
+<div id="offline">📴 目前離線 —— 顯示的是已存到手機的版本，導航連結需要網路</div>
 <script>
 (function(){
   var tabs=document.querySelectorAll('.tab');
@@ -493,6 +509,5 @@ footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;line-
   window.addEventListener('online',net); window.addEventListener('offline',net); net();
 })();
 </script>
-<div id="offline">📴 目前離線 —— 顯示的是已存到手機的版本，導航連結需要網路</div>
 </body>
 </html>
